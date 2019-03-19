@@ -41,11 +41,11 @@ Main goal is not to loose workers. Game end when overall number of workers drops
 
 ## Points
 ### You earn points from:
-  Selling items (value in coins is added to points)
+ - Selling items (value in coins is added to points)
 
-  Production value in village buildings and from field buildings
+ - Production value in village buildings and from field buildings
 
-  For each new worker
+ - For each new worker
 
 You can also loose points when you loose workers
 
