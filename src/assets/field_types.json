@@ -1,0 +1,87 @@
+[
+  {
+    "name":"silver_ore",
+    "displayName":"Silver Ore Deposit",
+    "resource":["silver"],
+    "min_amount": 400,
+    "max_amount":1000,
+    "max_on_map":1,
+    "building_name":["Silver Mine"],
+    "buildingLvl":0,
+    "building_cost_per_lvl":[["woodlog",10]],
+    "basic_yield":2
+
+  },
+  {
+    "name":"gold_ore",
+    "displayName":"Gold Ore Deposit",
+    "resource":["gold"],
+    "min_amount": 400,
+    "max_amount":1000,
+    "max_on_map":1,
+    "building_name":["Gold Mine"],
+    "buildingLvl":0,
+    "building_cost_per_lvl":[["woodlog",10]],
+    "basic_yield":2
+  },
+  {
+    "name":"iron_ore",
+    "displayName":"Iron Ore Deposit",
+    "resource":["iron_ore"],
+    "min_amount": 400,
+    "max_amount":1000,
+    "max_on_map":1,
+    "building_name":["Iron Ore Mine"],
+    "buildingLvl":0,
+    "building_cost_per_lvl":[["woodlog",10]],
+    "basic_yield":2
+  },
+  {
+    "name":"stone",
+    "displayName":"Stone Deposit",
+    "resource":["stone","coal"],
+    "min_amount": 400,
+    "max_amount":1000,
+    "max_on_map":1,
+    "building_name":["Quarry","Coal mine"],
+    "buildingLvl":0,
+    "building_cost_per_lvl":[["woodlog",10]],
+    "basic_yield":2
+  },
+  {
+    "name":"forest",
+    "displayName":"Forest",
+    "resource":["woodlog","fur"],
+    "min_amount": 400,
+    "max_amount":1000,
+    "max_on_map":1,
+    "building_name":["Lumberjack","Hunter"],
+    "buildingLvl":0,
+    "building_cost_per_lvl":[["woodlog",10]],
+    "basic_yield":5
+  },
+  {
+    "name":"field",
+    "displayName":"Field",
+    "resource":["wheat","cattle","sheep","fruit"],
+    "min_amount": 400,
+    "max_amount":1000,
+    "max_on_map":1,
+    "building_name":["Wheat farm","Cattle farm","Sheep farm","Orchard"],
+    "buildingLvl":0,
+    "building_cost_per_lvl":[["woodlog",10]],
+    "basic_yield":5
+  },
+  {
+    "name":"lake",
+    "displayName":"Lake",
+    "resource":["fish"],
+    "min_amount": 400,
+    "max_amount":1000,
+    "max_on_map":1,
+    "building_name":["Fisherman hut"],
+    "buildingLvl":0,
+    "building_cost_per_lvl":[["woodlog",10]],
+    "basic_yield":5
+  }
+]

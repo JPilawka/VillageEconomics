@@ -1,0 +1,222 @@
+[
+  {
+    "name":"bakery",
+    "displayName": "Bakery",
+    "description": "From wheat to fresh and crunchy bread",
+    "production":[{
+      "name": "food",
+      "base_amount": 15,
+      "input": "wheat",
+      "needed_amount": 10
+      }],
+    "workers_needed":2,
+    "workers_active":0,
+    "isActive": false,
+    "cost_of_build": [
+      {
+        "name":"board",
+        "amount": 10
+      }
+    ]
+  },
+  {
+    "name":"windmill",
+    "displayName": "Windmill",
+    "description": "building where flour are made",
+    "production":[{
+      "name": "flour",
+      "base_amount": 10,
+      "input": "wheat",
+      "needed_amount": 10
+      }],
+    "workers_needed":2,
+    "workers_active":0,
+    "isActive": false,
+    "cost_of_build": [
+      {
+        "name":"board",
+        "amount": 20
+      }
+    ]
+  },
+  {
+    "name":"sawmill",
+    "displayName": "Sawmill",
+    "description": "building where boards are made",
+    "production":[{
+      "name": "board",
+      "base_amount": 3,
+      "input": "woodlog",
+      "needed_amount": 1
+      }],
+    "workers_needed":2,
+    "workers_active":0,
+    "isActive": false,
+    "cost_of_build": [
+      {
+        "name":"board",
+        "amount": 20
+      }
+    ]
+  },
+  {
+    "name":"butcher",
+    "displayName": "Butcher",
+    "description": "Catlles into a meat? I like it",
+    "production":[{
+      "name": "raw_meat",
+      "base_amount": 10,
+      "input": "cattle",
+      "needed_amount": 1
+      }],
+    "workers_needed":2,
+    "workers_active":0,
+    "isActive": false,
+    "cost_of_build": [
+      {
+        "name":"board",
+        "amount": 20
+      }
+    ]
+  },
+  {
+    "name":"delicatessen",
+    "displayName": "Delicatessen",
+    "description": "From raw food we can cook everything",
+    "production":[{
+      "name": "food",
+      "base_amount": 2,
+      "input": "raw_meat",
+      "needed_amount": 1
+      },
+      {"name": "food",
+      "base_amount": 2,
+      "input": "fish",
+      "needed_amount": 1
+      }],
+    "workers_needed":1,
+    "workers_active":0,
+    "isActive": false,
+    "cost_of_build": [
+      {
+        "name":"board",
+        "amount": 20
+      }
+    ]
+  },
+  {
+    "name":"blacksmith",
+    "displayName": "Blacksmith",
+    "description": "Gimme some ore mate, iron will emerge",
+    "production":[{
+      "name": "iron_bar",
+      "base_amount": 1,
+      "input": "coal",
+      "needed_amount": 2
+      },
+      {"name": "iron_bar",
+      "base_amount": 1,
+      "input": "iron_ore",
+      "needed_amount": 2
+      }],
+    "workers_needed":1,
+    "workers_active":0,
+    "isActive": false,
+    "cost_of_build": [
+      {
+        "name":"board",
+        "amount": 20
+      }
+    ]
+  },
+  {
+    "name":"ironworks",
+    "displayName": "Ironworks",
+    "description": "Nice and shiny from gold and silver ore I'll make shiny bars",
+    "production":[{
+      "name": "gold_bar",
+      "base_amount": 1,
+      "input": "gold_ore",
+      "needed_amount": 3
+      },
+      {"name": "silver_bar",
+      "base_amount": 1,
+      "input": "silver_ore",
+      "needed_amount": 3
+      }],
+    "workers_needed":1,
+    "workers_active":0,
+    "isActive": false,
+    "cost_of_build": [
+      {
+        "name":"board",
+        "amount": 20
+      }
+    ]
+  },
+  {
+    "name":"jewelry",
+    "displayName": "Jewelry",
+    "description": "My precious. From silver and gold bars I'll do amazing things",
+    "production":[{
+      "name": "jewelry",
+      "base_amount": 2,
+      "input": "gold_bar",
+      "needed_amount": 1
+      },
+      {"name": "jewelry",
+      "base_amount": 2,
+      "input": "silver_bar",
+      "needed_amount": 1
+      }],
+    "workers_needed":1,
+    "workers_active":0,
+    "isActive": false,
+    "cost_of_build": [
+      {
+        "name":"board",
+        "amount": 20
+      }
+    ]
+  },
+  {
+    "name":"tanner",
+    "displayName": "Tanner",
+    "description": "Skin by skin",
+    "production":[{
+      "name": "leather_coat",
+      "base_amount": 1,
+      "input": "leather",
+      "needed_amount": 3
+      }],
+    "workers_needed":1,
+    "workers_active":0,
+    "isActive": false,
+    "cost_of_build": [
+      {
+        "name":"board",
+        "amount": 20
+      }
+    ]
+  },
+  {
+    "name":"cheese_maker",
+    "displayName": "Cheese Maker",
+    "description": "Smells like teen cheese",
+    "production":[{
+      "name": "cheese_maker",
+      "base_amount": 1,
+      "input": "milk",
+      "needed_amount": 1
+      }],
+    "workers_needed":1,
+    "workers_active":0,
+    "isActive": false,
+    "cost_of_build": [
+      {
+        "name":"board",
+        "amount": 20
+      }
+    ]
+  }
+]

@@ -1,0 +1,164 @@
+[
+  {
+    "name":"food",
+    "displayName": "Food",
+    "icon":"food.png",
+    "categories":["food"],
+    "description":"Enything that is processed enough to be eatten",
+    "buy_value":1
+  },
+  {
+    "name":"woodlog",
+    "displayName": "Wood log",
+    "icon":"icon.png",
+    "categories":["raw", "building"],
+    "description":"wood for making boards and buildings",
+    "buy_value":2
+
+  },
+  {
+    "name":"board",
+    "displayName": "Wood board",
+    "icon":"board.png",
+    "categories":["building"],
+    "description":"Boards for making buildings and othe stuff",
+    "buy_value":2
+  },
+  {
+    "name":"wheat",
+    "displayName": "Wheat",
+    "icon":"wheat.png",
+    "categories":["raw","food"],
+    "description":"Boards for making buildings and othe stuff",
+    "buy_value":1
+  },
+  {
+    "name":"flour",
+    "displayName": "Flour",
+    "icon":"flour.png",
+    "categories":["foodsubstrate"],
+    "description":"Boards for making buildings and othe stuff",
+    "buy_value":2
+  },
+  {
+    "name":"cattle",
+    "displayName": "Cattle",
+    "icon":"cattle.png",
+    "categories":["raw","food"],
+    "description":"Boards for making buildings and othe stuff",
+    "buy_value":3
+  },
+  {
+    "name":"milk",
+    "displayName": "Milk",
+    "icon":"milk.png",
+    "categories":["food"],
+    "description":"Boards for making buildings and othe stuff",
+    "buy_value":2
+  },
+  {
+    "name":"raw_meat",
+    "displayName": "Raw Meat",
+    "icon":"raw_meat.png",
+    "categories":["food"],
+    "description":"Boards for making buildings and othe stuff",
+    "buy_value":1
+  },
+  {
+    "name":"iron_ore",
+    "displayName": "Iron ore",
+    "icon":"iron_ore.png",
+    "categories":["raw"],
+    "description":"Boards for making buildings and othe stuff",
+    "buy_value":5
+  },
+  {
+    "name":"coal",
+    "displayName": "Coal",
+    "icon":"coal.png",
+    "categories":["raw"],
+    "description":"Boards for making buildings and othe stuff",
+    "buy_value":5
+  },
+  {
+    "name":"iron_bar",
+    "displayName": "Iron bar",
+    "icon":"iron_bar.png",
+    "categories":["material"],
+    "description":"Boards for making buildings and othe stuff",
+    "buy_value":10
+  },
+  {
+    "name":"gold_ore",
+    "displayName": "Gold ore",
+    "icon":"gold_ore.png",
+    "categories":["material"],
+    "description":"Boards for making buildings and othe stuff",
+    "buy_value":15
+  },
+  {
+    "name":"silver_ore",
+    "displayName": "Silver ore",
+    "icon":"silver_ore.png",
+    "categories":["material"],
+    "description":"Boards for making buildings and othe stuff",
+    "buy_value":12
+  },
+  {
+    "name":"gold_bar",
+    "displayName": "Gold bar",
+    "icon":"gold_bar.png",
+    "categories":["material"],
+    "description":"Boards for making buildings and othe stuff",
+    "buy_value":20
+  },
+  {
+    "name":"silver_bar",
+    "displayName": "Silver bar",
+    "icon":"silver_bar.png",
+    "categories":["material"],
+    "description":"Boards for making buildings and othe stuff",
+    "buy_value":15
+  },
+  {
+    "name":"leather",
+    "displayName": "Leather",
+    "icon":"leather.png",
+    "categories":["material"],
+    "description":"Boards for making buildings and othe stuff",
+    "buy_value":2
+  },
+  {
+    "name":"leather_coat",
+    "displayName": "Leather coat",
+    "icon":"leather_coat.png",
+    "categories":["material"],
+    "description":"Boards for making buildings and othe stuff",
+    "buy_value":5
+  },
+  {
+    "name":"fish",
+    "displayName": "Fish",
+    "icon":"fish.png",
+    "categories":["material"],
+    "description":"Boards for making buildings and othe stuff",
+    "buy_value":2
+  },
+  {
+    "name":"stone",
+    "displayName": "Stone",
+    "icon":"stone.png",
+    "categories":["material"],
+    "description":"Boards for making buildings and othe stuff",
+    "buy_value":3
+  },
+  {
+    "name":"jewelry",
+    "displayName": "Jewelry",
+    "icon":"jewelry.png",
+    "categories":["material"],
+    "description":"Boards for making buildings and othe stuff",
+    "buy_value":25
+  }
+
+]
