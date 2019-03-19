@@ -1,4 +1,4 @@
-# economicgame
+# Turn Based Economic Game
 
 This is simple game based only on Vue. It works in one session locally. Nothing is saved anywhere, in browser in file or in database.
 
